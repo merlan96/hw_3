@@ -45,67 +45,103 @@ h1 {
   font-size: 1.5rem;
 }
 
-                        body {
-                          padding: 24px;
-                          display: grid;
-                          place-content: center;
-                        }
-
-                          label {
-                            display: block;
-                            padding-top: 16px;
-                          }
-
-                          input {
-                            width: unset;
-                        }
-
-.block2
-{
-  width: 200px; height: 150 px; background-color: lightblue
+body {
+  padding: 24px;
+  display: grid;
+  place-content: center;
 }
 
-
-.block3
-{
-  width: 200px; height: 150 px; color: black;
+label {
+  display: block;
+  padding-top: 16px;
 }
 
-.block3_bg
-{
-  background-color: yellow
+input {
+  width: unset;
 }
 
-legend
-{
-  color: red; font-weight: bold 
+.block2 {
+  width: 200px;
+  height: 150 px;
+  background-color: lightblue;
 }
 
-.block4
-{
-  width: 200px; height: 150 px; background-color: lightblue
+.block3 {
+  width: 200px;
+  height: 150 px;
+  color: black;
 }
 
-.block5
-{
-  width: 200px; height: 150 px; background-color: yellow
+.block3_bg {
+  background-color: yellow;
 }
 
-.block5 > label
-{
-  width: 50px; height: 50 px; font-weight: bold; background-color: lightblue
+legend {
+  color: red;
+  font-weight: bold;
 }
 
-.block6
-{
-  width: 200px; height: 150 px; background-color: lightblue
+.block4 {
+  width: 200px;
+  height: 150 px;
+  background-color: lightblue;
 }
 
-#block6_text
-{
-  font-weight: bold; color: black;
+.block5 {
+  width: 200px;
+  height: 150 px;
+  background-color: yellow;
 }
-#button
-{
-  width: 200px; height: 150 px; color: black; margin-left: 50px; font-weight: bold; background-color: aqua
+
+.block5 > label {
+  width: 50px;
+  height: 50 px;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+.block6 {
+  width: 200px;
+  height: 150 px;
+  background-color: lightblue;
+}
+
+#block6_text {
+  font-weight: bold;
+  color: black;
+}
+#button {
+  width: 200px;
+  height: 150 px;
+  color: black;
+  margin-left: 50px;
+  font-weight: bold;
+  background-color: aqua;
+}
+
+#button2 {
+  width: 100px;
+  height: 150 px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: aqua;
+}
+
+#button3 {
+  width: 100px;
+  height: 150 px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: aqua;
+}
+
+#button5 {
+  width: 100px;
+  height: 150 px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: aqua;
 }
